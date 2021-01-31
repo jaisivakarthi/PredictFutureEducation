@@ -1,0 +1,23 @@
+31-01-21
+--------
+Predict the student future Education:
+	-POC to predict the Student's Future Education based on his marks.
+	-Using 5 subjects for 1st to 10th standard as an Independent feature.
+	-The outcome is Dependent feature to predict the Future Education (Medical, Engineering, Arts, Commerce, BA).
+	1) Created the dataset based on subject using pandas and numpy library:
+			created_dataset.py
+			data_set.csv
+	2) Created model file:
+			Loading the data
+			Feature selection with Label encoder
+			Split the data train, test
+			Apply algorithms
+			Predict the test data
+			Evaluate the score using sklearn library.
+			model.py
+			model.pkl
+			Jupyter html file:
+				Future_edu_prediction .html
+				
+	Github link:			
+		https://github.com/jaisivakarthi/PredictFutureEducation.git				
